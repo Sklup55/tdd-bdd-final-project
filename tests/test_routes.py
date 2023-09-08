@@ -228,6 +228,7 @@ class TestProductRoutes(TestCase):
         self.assertEqual(new_count, product_count - 1)
 
 
+
     def test_get_product_list(self):
         """It should Get a list of Products"""
         self._create_products(5)
